@@ -1,16 +1,17 @@
 # falemais_app
 
-FaleMais Application
+Aplicativo em Flutter/dart da empresa Telzir para cálculo do valor em reais de ligações, dado o DDD de origem e destino e a duração da ligação como entrada.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Execução
+  - Instalar o dart
+  - Instalar Flutter
+  - Rodar os comandos abaixo no diretório da pasta do arquivo:
+  - flutter pub get
+  - flutter run
+  
+ # Testes
+   - Caso seja passado como entrada, nos campos de DDD, um valor diferente dos que estejam na tabela de DDD do desafio, uma mensagem dizendo para informar um valor válido é mostrada e outra entrada é pedida em seguida
+   - Caso seja passado como entrada um número de ponto flutuante como entrada no campo de duração, uma mensagem dizendo para informar um valor válido e inteiro é mostrada
+   - Caso nao seja clicado um card para escolha de um plano, uma mensagem é mostrada pedindo para escolher um dos planos
